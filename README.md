@@ -1,2 +1,2 @@
-# Web_abi_study
+# Web_api_study
 javascript Web apis study
