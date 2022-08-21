@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		body{
+			background-color: black;
+		}
+		.normal{
+			width: 100px;
+			height: 100px;
+			background-color:antiquewhite;
+			margin: 1px 0px;
+		}
+		#special{
+			width: 100px;
+			height: 100px;
+			background-color: aqua;
+			margin: 1px 0px;
+		}
+	</style>
+</head>
+<body>
+	<div class="normal"></div>
+	<div class="normal"></div>
+	<div class="normal"></div>
+	<div class="normal"></div>
+	<div id="special"></div>
+	<div class="normal"></div>
+	<div class="normal"></div>
+	<div class="normal"></div>
+
+	<script>
+	const special = document.querySelector("#special");
+	document.addEventListener('click', printMousePos, true);
+	function printMousePos(e){
+    cursorX = e.pageX;
+    cursorY= e.pageY;
+	console.log("page X ", cursorX," page Y ",cursorY);
+	console.log(special);
+	}
+
+	</script>
+</body>
+</html>
