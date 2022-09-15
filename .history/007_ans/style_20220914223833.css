@@ -1,0 +1,15 @@
+body{
+	background-color: black;
+}
+
+.line{
+	position: absolute;
+}
+
+.target{
+	position: absolute;
+}
+
+.tag{
+	position: absolute;
+}

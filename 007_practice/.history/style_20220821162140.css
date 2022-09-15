@@ -1,0 +1,11 @@
+body{
+	background-color: black;
+	color: white;
+}
+div{
+	position: absolute;
+}
+.vl{
+	border-left: 1px solid white;
+	height: 500px;
+}
